@@ -13,7 +13,6 @@ apt-get install php8.0
 ufw app info "WWW Full"
 ufw allow in "WWW Full"
 
-# mysql_secure_installation 
-mysql_secure_installation 
+#mysql_secure_installation 
 
 
