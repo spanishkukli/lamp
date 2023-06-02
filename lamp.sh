@@ -14,10 +14,6 @@ ufw app info "WWW Full"
 ufw allow in "WWW Full"
 
 # mysql_secure_installation 
-read -p "Execute mysql_secure_installation? (recomended) " -n 1 -r
-echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-   mysql_secure_installation 
-fi
+mysql_secure_installation 
+
 
